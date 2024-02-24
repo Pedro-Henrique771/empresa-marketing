@@ -1,3 +1,30 @@
-body{
-    background-color: var(--cor-de-fundo);
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Header */
+.topo{
+    display: flex;
+}
+
+.topo-texto-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 345px;
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+}
+
+.subtitulo{
+    font-family: var(--fonte-subtitulo);
 }
