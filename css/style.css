@@ -81,7 +81,25 @@
     margin: 20px;
 }
 
+.subtitulos{
+    margin-bottom: 35px;
+}
+
 .container-txt{
     width: 345px;
     margin-right: 90px;
+}
+
+/* Nossos planos */
+
+.nossos-planos{
+    margin: 20px;
+}
+
+td{
+    padding: 10px;
+}
+
+.gg-check{
+    color: rgb(85, 218, 85);
 }
