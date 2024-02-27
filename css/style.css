@@ -56,3 +56,22 @@
     padding: 7px;
     margin: 10px;
 }
+
+/* Conteúdo */
+
+.conteudo-principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
+
+.sessao1{
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.image{
+    width: 400px;
+}
