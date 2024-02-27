@@ -62,16 +62,26 @@
 .conteudo-principal{
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
+    width: 1000px;
     margin: auto;
 }
 
 .sessao1{
-    align-self: center;
-    align-content: center;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;
 }
 
 .image{
     width: 400px;
+}
+
+.bloco-conteudo{
+    display: flex;
+    margin: 20px;
+}
+
+.container-txt{
+    width: 345px;
+    margin-right: 90px;
 }
